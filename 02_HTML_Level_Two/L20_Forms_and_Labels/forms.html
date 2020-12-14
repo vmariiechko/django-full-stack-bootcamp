@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Forms and Labels</title>
+	</head>
+	<body>
+		<!-- Form  with action-->
+
+		<form action="https://www.facebook.com" method="get">
+			<h1>Input some text and Go to Facebook page:</h1>
+
+			<input type="email" name="email" value="Required" required>
+			<input type="text" name="text" value="Not required">
+			<input type="submit" name="submit" value="Submit">
+
+		</form>
+
+		<!-- Label bad way -->
+
+		<form>
+			<h1>Labels in bad way</h1>
+			<label>
+				Enter some text:
+				<input type="text" name="text2" placeholder="Enter text">
+			</label>
+		</form>
+
+		<!-- Label with for -->
+		
+		<form>
+			<h1>Labels in better way</h1>
+			<label for="userinput">Enter email:</label>
+
+			<input id="userinput" type="email" name="email2" placeholder="Enter Email" required>
+		</form>
+
+	</body>
+</html>

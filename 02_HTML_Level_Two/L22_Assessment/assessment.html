@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Assessment</title>
+	</head>
+	<body>
+		<h1>Course Sign Up Page</h1>
+		<p>Please Note: First Name, Last Name, Password, and Email are required</p>
+
+		<form action="../L21_Forms_and_Selections/forms.html" method="get">
+
+			<label for="firstname">First Name:</label>
+			<input id="firstname" type="text" name="firstname" placeholder="First Name" required>
+
+			<label for="lastname">Last Name:</label>
+			<input id="lastname" type="text" name="lastname" placeholder="Last Name" required>
+
+			<br><br>
+
+			<label for="email">Email:</label>
+			<input id="email" type="email" name="email" placeholder="name@email.com" required>
+
+			<label for="password">Password:</label>
+			<input id="password" type="password" name="password" required>
+
+			<p>Are you over the age of 18?</p>
+
+			<label for="yes">Yes:</label>
+			<input id="yes" type="radio" name="age">
+
+			<label for="no">No:</label>
+			<input id="no" type="radio" name="age">
+			
+			<p>Do you have a Credit Card or PayPal?</p>
+
+			<select>
+				<option value="credit">Credit Card</option>
+				<option value="paypal">PayPal</option>
+			</select>
+
+			<p></p>
+
+			<input type="submit" value="Submit Feedback">
+
+		</form>
+
+	</body>
+</html>
