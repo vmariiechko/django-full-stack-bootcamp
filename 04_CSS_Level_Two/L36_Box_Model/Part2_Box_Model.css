@@ -1,0 +1,15 @@
+/* Change top id */
+#top{
+	border: 5px solid orange;
+	width: 50%;
+	text-align: center;
+	margin: auto;
+}
+
+/* Change bottom id */
+#bottom{
+	border: 5px solid green;
+	text-align: center;
+	width: 25%;
+	padding: 40px;
+}
