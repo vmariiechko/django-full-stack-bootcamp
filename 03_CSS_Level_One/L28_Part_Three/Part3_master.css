@@ -1,0 +1,33 @@
+/* Selectors */
+
+/* Change firstDiv class */
+.firstDiv{
+	color: orange;
+}
+
+/* Change secondDiv class */
+.secondDiv{
+	color: green;
+}
+
+/* Change singledout id */
+#singledout{
+	color: blue;
+	text-decoration: line-through;
+}
+
+/* Change ul right after h3 */
+h3 + ul{
+	border: 5px dotted blue;
+}
+
+/* Change a inside the li */
+li a{
+	color: purple;
+}
+
+/* Change a inside the li with a specific attribute */
+li a[href="https://www.instagram.com"]{
+	color: orange;
+	border: 3px solid brown;
+}

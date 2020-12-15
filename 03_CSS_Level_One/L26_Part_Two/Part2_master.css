@@ -1,0 +1,24 @@
+/* Change body */
+body{
+	background: url(https://www.healthyeating.org/images/default-source/home-0.0/nutrition-topics-2.0/general-nutrition-wellness/2-2-2-3foodgroups_fruits_detailfeature_thumb.jpg?sfvrsn=7abe71fe_4);
+	background-repeat: repeat; 
+}
+
+/* Change div */
+div{
+	background: orange;
+	border-width: 5px;
+	border-color: red;
+	border-style: double; 
+}
+
+/* Change p */
+p{
+	color: blue;
+}
+
+/* Change span */
+span{
+	background: purple;
+	color: yellow;
+}

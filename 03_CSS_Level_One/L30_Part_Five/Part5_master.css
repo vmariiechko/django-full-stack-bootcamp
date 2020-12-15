@@ -1,0 +1,14 @@
+/* Change li */
+li{
+	color: orange;
+}
+
+/* Change topitems class */
+.topitems{
+	color: red;
+}
+
+/* Chagne two id */
+#two{
+	border: 2px solid black;
+}

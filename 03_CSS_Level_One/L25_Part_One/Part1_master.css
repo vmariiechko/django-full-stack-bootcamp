@@ -1,0 +1,23 @@
+/*selected tab{
+	property: value;
+}*/
+
+/* Change h1 color */
+h1{
+	color: red;
+}
+
+/* Change li color with rgb */
+li{
+	color: rgb(20, 196, 227);
+}
+
+/* Change p color with hex */
+p{
+	color: #2ef266;
+}
+
+/* Change h4 color with rgba */
+h4{
+	color: rgba(20, 196, 227, 0.5);
+}
