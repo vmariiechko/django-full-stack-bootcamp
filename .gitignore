@@ -157,3 +157,11 @@ dmypy.json
 .prof
 
 # End of https://www.toptal.com/developers/gitignore/api/python,linux
+
+# Visual Studio Code
+.vscode/
+vscode/
+
+# Django evn
+MyDjangoEnv/
+

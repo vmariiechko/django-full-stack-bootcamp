@@ -1,0 +1,33 @@
+# Using anaconda:
+# Create environment with specified python version:
+$ conda create --name MyDjangoEnv python=3.6
+
+# List all environments:
+$ conda info --envs
+
+# Activate env:
+# In MacOS/Linux:
+$ source activate MyDjangoEnv
+# In Windows:
+$ activate MyDjangoEnv
+
+# Install Django:
+$ conda install django
+
+# Deactivate env:
+$ deactivate
+
+
+# Using venv:
+# Create environment:
+$ python -m venv MyDjangoEnv
+
+# Activate env:
+# In MacOS/Linux:
+$ source MyDjangoEnv/bin/activate
+
+# Update pip
+python -m pip install --upgrade pip
+
+# Install Django
+pip install django
