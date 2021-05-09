@@ -24,13 +24,13 @@ class UserPosts(generic.ListView):
 
     def get_queryset(self):
         try:
-            self.post_user = User.objects.prefetch_related("posts").get(
+            self.post_user = User.objects.prefetch_related("posts").filter(
                 username__iexact=self.kwargs.get("username")
             )
         except User.DoesNotExist:
             raise Http404
         else:
-            return self.post_user.posts.all()
+            return self.post_user[0].posts.all()
 
     def get_context_data(self, **kwargs):
         context = super().get_context_data(**kwargs)
